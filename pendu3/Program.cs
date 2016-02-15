@@ -33,6 +33,8 @@ namespace pendu2
 
                 Console.WriteLine(fault + " chances");
                 Console.WriteLine("Quelle est la lettre que vous proposez?");
+
+
                 char caract = Convert.ToChar(Console.ReadLine());
 
                 if (essai.IndexOf(caract) != -1)
