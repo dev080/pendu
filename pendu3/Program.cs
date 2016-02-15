@@ -13,7 +13,7 @@ namespace pendu2
             string essai = "";
 
 
-            Console.WriteLine("Quel est le mot à faire découvrir");  //enregistrement du mot secret
+            Console.WriteLine("Quel est le mot à faire découvrir?");  //enregistrement du mot secret
             String secret = Console.ReadLine();
 
 
